@@ -8,7 +8,7 @@
     "main.e1759c91.js.map": "./react-CP4/static/js/main.e1759c91.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7528ce.css",
-    "static/js/main.e1759c91.js"
+    "./static/css/main.6f7528ce.css",
+    "./static/js/main.e1759c91.js"
   ]
 }
