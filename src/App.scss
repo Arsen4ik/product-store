@@ -4,10 +4,12 @@
   margin: 100px 0;
   animation: spin 1s linear infinite;
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -65,7 +67,8 @@
   padding: 20px;
   backdrop-filter: blur(6px);
 
-  p, h3 {
+  p,
+  h3 {
     text-align: center;
     background-color: rgba(255, 255, 255, .8);
     padding: 5px;
@@ -85,6 +88,7 @@
   height: 20px;
   border: none;
 }
+
 .notGold {
   filter: invert(.5);
 }
@@ -107,10 +111,12 @@
   div {
     margin-top: 30px;
     height: 20px;
+
     img {
       height: 20px;
     }
   }
+
   img {
     grid-column-start: 2;
     grid-column-end: 3;

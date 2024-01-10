@@ -9,6 +9,7 @@ export default function Product() {
             <h1>{title}</h1>
             <h2>{price}$</h2>
             <p>{description}</p>
+            b
             <div>
                 {
                     stars.map((isVisible, ind) => (
